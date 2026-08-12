@@ -3030,6 +3030,16 @@ input, select, textarea {
 						margin-top: -1em;
 					}
 
+				#menu h3 a {
+					border-bottom: 0;
+					font-weight: 300;
+					color: inherit;
+				}
+
+					#menu h3 a:hover {
+						border-bottom: 0;
+					}
+
 		#menu > .close {
 			-moz-transition: opacity 0.45s ease, -moz-transform 0.45s ease;
 			-webkit-transition: opacity 0.45s ease, -webkit-transform 0.45s ease;
@@ -3160,7 +3170,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 5em 0 6em 0 ;
+		padding: 2.5em 0 3em 0 ;
 		background-color: #3e3e42;
 	}
 
@@ -3196,7 +3206,7 @@ input, select, textarea {
 			#footer > .inner .copyright {
 				width: 100%;
 				padding: 0;
-				margin-top: 5em;
+				margin-top: 2.5em;
 				list-style: none;
 				font-size: 0.8em;
 				color: rgba(255, 255, 255, 0.5);
@@ -3223,7 +3233,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 5em 0 3em 0 ;
+				padding: 2.5em 0 1.5em 0 ;
 			}
 
 				#footer > .inner section:nth-child(1) {
@@ -3255,7 +3265,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 0 1em 0 ;
+				padding: 1.5em 0 0.5em 0 ;
 			}
 
 				#footer > .inner {
@@ -3281,7 +3291,7 @@ input, select, textarea {
 					}
 
 					#footer > .inner .copyright {
-						margin-top: 3em;
+						margin-top: 1.5em;
 					}
 
 		}
@@ -3289,7 +3299,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#footer > .inner .copyright {
-				margin-top: 3em;
+				margin-top: 1.5em;
 			}
 
 				#footer > .inner .copyright li {
@@ -3322,3 +3332,43 @@ input, select, textarea {
 			}
 
 		}
+/* Page Toggle */
+
+	#header .inner {
+		position: relative;
+	}
+
+	#header nav.page-toggle {
+		position: absolute;
+		top: -4em;
+		right: 0;
+	}
+
+		#header nav.page-toggle a {
+			display: inline-block;
+			color: inherit;
+			font-weight: 300;
+			text-decoration: none;
+			border-bottom: 0;
+			margin: 0 0.375em;
+		}
+
+			#header nav.page-toggle a.is-active {
+				font-weight: 900;
+				color: #007acc;
+			}
+
+		@media screen and (max-width: 736px) {
+
+			#header nav.page-toggle {
+				top: -2.5em;
+			}
+
+		}
+
+/* Project Date */
+
+	.project-date {
+		font-weight: 900;
+		margin-top: -2.5em;
+	}
