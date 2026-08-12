@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>CAE / FEM Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="professional.html" class="logo">
+									<span class="title">Fabian Torgler</span>
+								</a>
+
+								<!-- Nav -->
+									<nav>
+										<ul>
+											<li><a href="#menu">Menu</a></li>
+										</ul>
+									</nav>
+
+						</div>
+					</header>
+
+					<!-- Menu -->
+						<nav id="menu">
+							<h2>Projects</h2>
+								<h3><a href="index.html">Personal</a></h3>
+								<ul>
+									<li><a href="lightstick.html">Lightstick</a></li>
+									<li><a href="rocket.html">Rocket</a></li>
+									<li><a href="server.html">Drink Server</a></li>
+									<li><a href="bias.html">Bias Lighting</a></li>
+									<li><a href="laser.html">Laser-Cut Furniture</a></li>
+									<li><a href="matura.html">Sensory Substitution</a></li>
+								</ul>
+								<h3><a href="professional.html">Professional &amp; Academic</a></h3>
+								<ul>
+									<li><a href="thesis.html">Bachelor Thesis</a></li>
+									<li><a href="internship.html">Internship</a></li>
+									<li><a href="cae-fem.html">CAE / FEM</a></li>
+									<li><a href="dfam.html">Design for Additive Manufacturing</a></li>
+									<li><a href="piccard.html">Aris Project PICCARD</a></li>
+									<li><a href="composites.html">Composites</a></li>
+								</ul>
+						</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Computer Aided Engineering & Finite Element Methods</h1>
+							<!-- <p class="project-date">YEAR</p> -->
+							<p>Through a series of case studies and computer labs, I got a lot of hands-on practice with nonlinear finite element analysis, mostly in Abaqus but also Ansys. Much of this centered on material modeling: implementing rate- and temperature-dependent plasticity (Johnson-Cook, Swift-Voce) and anisotropic yield surfaces (Hill'48) through custom Fortran user subroutines, plus ductile damage and fracture models (Hosford-Coulomb) calibrated against experimental fracture data and used to simulate crack initiation and element erosion. One project I particularly liked was a group study on a turbofan blade-out event: simulating the high-velocity impact of a detached fan blade on its containment shroud and comparing aluminum, CFRP, and hybrid layups with Hashin composite damage; my part was the material modeling and optimizing the thickness of the full-aluminum shroud design with an automated script run on the ETH Euler HPC cluster. Other work covered the buckling and post-buckling response of thin-walled CFRP struts, combining linear eigenvalue buckling with Riks arc-length analysis to capture imperfection sensitivity and snap-through, frictional contact formulations for bolted joints, mesh convergence studies and verification against analytical solutions, and large-deformation explicit simulations including vehicle crashworthiness, crash-box design, ballistic penetration, and Taylor impact tests.</p>
+							<div class="row gtr-uniform">								
+								<div class="col-4"><span class="image fit"><img src="images/cae_strut.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/cae_pump.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/cae_cradle.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/cae_fracture.gif" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/cae_ballistic.gif" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/cae_crash.gif" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/caefem_7.png" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/caefem_8.png" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/caefem_9.png" alt="" /></span></div>
+							</div>
+						</div>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						</section>
+						<ul class="copyright">
+							<li>&copy; Fabian Torgler Villegas. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
