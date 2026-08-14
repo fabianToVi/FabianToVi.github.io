@@ -3358,6 +3358,26 @@ input, select, textarea {
 				color: #007acc;
 			}
 
+			#header nav.page-toggle a .arrow-hint {
+				display: inline-block;
+				margin-left: 0.2em;
+				transition: transform 0.2s ease;
+			}
+
+				#header nav.page-toggle a:hover .arrow-hint {
+					transform: translateX(4px);
+				}
+
+			#header nav.page-toggle a .arrow-hint-left {
+				display: inline-block;
+				margin-right: 0.2em;
+				transition: transform 0.2s ease;
+			}
+
+				#header nav.page-toggle a:hover .arrow-hint-left {
+					transform: translateX(-4px);
+				}
+
 		@media screen and (max-width: 736px) {
 
 			#header nav.page-toggle {
